@@ -1,29 +1,13 @@
-# hello-world
+# Scott Reese 
+## Jr Software Engineer
 
-## Project setup
-```
-npm install
-```
+### Details
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
+#### This was my first Vue project completed with the intention to learn Vuejs.
 
-### Compiles and minifies for production
-```
-npm run build
-```
+#### Updated June 2019
 
-### Run your tests
-```
-npm run test
-```
+### Other
 
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+#### Feedback? Email: reessm01@protonmail.com.
+#### Hiring? Phone: 574-400-9812
