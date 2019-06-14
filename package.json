@@ -1,5 +1,5 @@
 {
-  "name": "hello-world",
+  "name": "portfolio-site",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -13,7 +13,8 @@
     "core-js": "^2.6.9",
     "node-sass": "^4.12.0",
     "sass-loader": "^7.1.0",
-    "vue": "^2.6.10"
+    "vue": "^2.6.10",
+    "vue-scrollto": "^2.15.0"
   },
   "devDependencies": {
     "@vue/cli-plugin-babel": "^3.8.0",

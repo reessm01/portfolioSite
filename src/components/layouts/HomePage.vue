@@ -1,12 +1,12 @@
 <template>
 	<b-container
-	 class="center"
+	 class="about"
 	 fluid
-	 id="container"
 	>
+		<div id="about" />
 		<h2>ABOUT</h2>
 		<div id="bar" />
-		<b-row>
+		<b-row id="icons">
 			<AboutCol
 			 v-for="detail in aboutDetails"
 			 :key="detail.id"
@@ -19,7 +19,6 @@
 		<b-row>
 			<b-col
 			 id="aboutMe"
-			 md="6"
 			 align-self="center"
 			>
 				<img
@@ -27,11 +26,18 @@
 				 :src="require('../../../src/assets/boat me.jpg')"
 				>
 				<h2>Who's this guy?</h2>
-				<p>As a former manufacturing engineer I bring analytical prowess to software development.
-					I don't write just clean, functional code I also excel at integrating beauty into my designs. <br>
-					Let's collaborate and develop something awesome.</p>
+				<div id="detailsMe">
+				<p>
+					I'm passionate about learning the intricacies of systems and figuring out how to 
+					iterate upon them. It is through software development that I am taking my passion 
+					to the next level and am applying it in meaningful and tangible ways.
+				</p>
+				<p>
+					If you're developing something that is solving difficult problems that makes
+					a net positive difference I want to be a part of it.
+				</p>
+				</div>
 			</b-col>
-
 			<SkillBars />
 		</b-row>
 	</b-container>
@@ -95,13 +101,6 @@
 		margin: auto;
 		margin-bottom: 50px;
 	}
-	#contain {
-		display: flex;
-		justify-content: center;
-		align-content: center;
-		align-items: center;
-		justify-items: center;
-	}
 
 	#portrait {
 		width: 40%;
@@ -112,7 +111,6 @@
 	}
 
 	#aboutMe {
-		width: 290px;
 		word-wrap: normal;
 		font-size: 12px;
 		text-align: center;
@@ -124,7 +122,20 @@
 		margin-right: 20px;
 	}
 
-	#container {
-		margin-top: 70px;
+	.about {
+		margin-top: 30px;
+		margin-bottom: 30px;
+		padding: 10px;
+	}
+
+	#icons {
+		padding:10px;
+	}
+
+	#detailsMe{
+		display: flex;
+		flex-direction: column;
+		justify-items: flex-start;
+		text-align: start;
 	}
 </style>
