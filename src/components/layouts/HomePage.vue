@@ -6,16 +6,7 @@
 		<div id="about" />
 		<h2>ABOUT</h2>
 		<div id="bar" />
-		<b-row id="icons">
-			<AboutCol
-			 v-for="detail in aboutDetails"
-			 :key="detail.id"
-			 v-bind:title="detail.title"
-			 v-bind:detail="detail.detail"
-			 v-bind:src="detail.src"
-			 v-bind:id="detail.id"
-			/>
-		</b-row>
+		
 		<b-row>
 			<b-col
 			 id="aboutMe"
@@ -39,6 +30,16 @@
 				</div>
 			</b-col>
 			<SkillBars />
+		</b-row>
+		<b-row id="icons">
+			<AboutCol
+			 v-for="detail in aboutDetails"
+			 :key="detail.id"
+			 v-bind:title="detail.title"
+			 v-bind:detail="detail.detail"
+			 v-bind:src="detail.src"
+			 v-bind:id="detail.id"
+			/>
 		</b-row>
 	</b-container>
 </template>
