@@ -5,22 +5,18 @@
 			<div id="bar" />
 		</div>
 		<div id="info">
-		
-				
-					<ContactInfo />
-			
-		
+
+			<ContactInfo />
+
 		</div>
 	</div>
 </template>
 
 <script>
-	import ContactForm from "../ContactForm";
 	import ContactInfo from "../ContactInfo";
 	export default {
 		name: "ContactPage",
 		components: {
-			ContactForm,
 			ContactInfo
 		}
 	};
@@ -35,8 +31,8 @@
 	}
 
 	#contact {
-        display: flex;
-        flex-direction:column;
+		display: flex;
+		flex-direction: column;
 		align-content: center;
 		width: 100%;
 		background-color: #f0f0f0;
@@ -48,7 +44,7 @@
 	#title {
 		width: 100%;
 	}
-	#info{
+	#info {
 		display: flex;
 		align-self: center;
 		justify-content: center;
