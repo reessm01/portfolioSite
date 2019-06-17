@@ -41,7 +41,7 @@
 						Register and Login<br>
 						Drag and drop<br>
 						Info modals<br>
-                        SemanticUI
+						SemanticUI
 					</p>
 					<div class="buttonPair">
 						<b-button
@@ -188,8 +188,8 @@
 <style scoped>
 	#projects {
 		margin: 0px 0px 0px 0px;
-        background-color: #cccccc;
-        padding: 20px 10px 20px 10px;
+		background-color: #cccccc;
+		padding: 20px 10px 20px 10px;
 	}
 
 	.tabs {

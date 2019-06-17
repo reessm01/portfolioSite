@@ -4,6 +4,7 @@
 	 align-self="center"
 	 class="content"
 	>
+        <h2>Skillsets</h2>
 		<div
 		 v-for="skill in skills"
 		 :key="skill.tech"
@@ -128,5 +129,5 @@
 
 	.width {
 		width: 20%;
-	}
+    }
 </style>

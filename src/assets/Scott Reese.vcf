@@ -1,0 +1,10 @@
+BEGIN:VCARD
+VERSION:4.0
+N:Reese;Scott;;Mr.;
+FN:Scott Reese
+TITLE:Software Developer
+PHOTO;MEDIATYPE=image/jpeg:https://scontent-dus1-1.xx.fbcdn.net/v/t1.0-9/29683394_1576447062405177_4896549566909777887_n.jpg?_nc_cat=110&_nc_oc=AQnNvXzMSpX4SVPWv8bFciX_AVpdfSGg9iKphNF-Kjz6Srw8jxgLnVuB6PVEkbWmS_I&_nc_ht=scontent-dus1-1.xx&oh=51ef16d0f0d604d73b7ee08ffdb650ec&oe=5DC6DD51
+TEL;TYPE=home,voice;VALUE=uri:tel:+1-574-400-9812
+EMAIL:scott_reese@pm.me
+URL:https://www.scotreese.info
+END:VCARD

@@ -75,15 +75,12 @@
 		margin: 0px;
 	}
 
-	button {
-		width: 150px;
-    margin: 20px;
-    text-align: center;
-    padding: auto;
-	}
-
 	#image {
 		height: 100%;
 		width: 100%;
+	}
+
+	button {
+		margin-top: 20px;
 	}
 </style>

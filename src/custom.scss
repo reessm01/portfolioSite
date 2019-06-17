@@ -2,6 +2,13 @@
 @import 'node_modules/bootstrap/scss/bootstrap';
 @import 'node_modules/bootstrap-vue/src/index.scss';
 
+
+html {
+    overflow-x: hidden;
+    width: 100%;
+}
 body {
-    min-width: 320px !important;
+    width:100%;
+    margin:auto;
+    overflow-x: hidden;
 }
